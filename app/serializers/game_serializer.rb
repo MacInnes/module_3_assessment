@@ -1,15 +1,19 @@
 class GameSerializer < ActiveModel::Serializer
-  attributes :id, :score
+  attributes :game_id, :scores
 
-  def score
+  def game_id
+    object.id
+  end
+
+  def scores
     user_1 = User.find(object.player_1.id)
     user_2 = User.find(object.player_2.id)
     output_hash = [{
-      user_id: user_1,
+      user_id: user_1.id,
       score: player_score(object, user_1)
     },
     {
-      user_id: user_2,
+      user_id: user_2.id,
       score: player_score(object, user_2)
     }]
   end
