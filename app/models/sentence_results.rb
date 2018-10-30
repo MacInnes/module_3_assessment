@@ -12,10 +12,9 @@ class SentenceResults
     result = service.get_sentences(@word)
     sentences = result[:results].first[:lexicalEntries].first[:sentences]
     filtered = filter_regions(sentences)
-    filtered.map do |sentence|
+    output = filtered.map do |sentence|
       Sentence.new(sentence)
     end
-    binding.pry
   end
 
 
