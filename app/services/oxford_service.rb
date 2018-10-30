@@ -15,8 +15,7 @@ class OxfordService
   end
 
   def get_json(url)
-    result = JSON.parse(conn.get(url).body, symbolize_names: true)
-    binding.pry
+    JSON.parse(conn.get(url).body, symbolize_names: true)
   end
 
 end
