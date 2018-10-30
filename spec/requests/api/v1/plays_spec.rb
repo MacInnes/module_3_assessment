@@ -4,6 +4,8 @@ describe 'API' do
   it 'POST /api/v1/games/1/plays' do
     game = create(:game)
 
+    
+
     get '/api/v1/games/1'
     initial_game_state = JSON.parse(response.body, symbolize_names: true)
 
