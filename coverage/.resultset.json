@@ -57,7 +57,7 @@
         1,
         null
       ],
-      "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/controllers/words_controller.rb": [
+      "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/controllers/sentences_controller.rb": [
         1,
         null,
         1,
@@ -80,6 +80,6 @@
         null
       ]
     },
-    "timestamp": 1540913769
+    "timestamp": 1540914315
   }
 }
