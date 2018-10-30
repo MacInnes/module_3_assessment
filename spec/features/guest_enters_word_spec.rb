@@ -3,7 +3,7 @@ require 'rails_helper'
 feature 'a guest user' do
   scenario 'enters a word on the page' do
     visit '/'
-    fill_in "word", with: "mindfulness"
+    fill_in :word, with: "mindfulness"
     click_on "Submit"
 
     expect(page).to have_content("Examples for using 'mindfulness'")

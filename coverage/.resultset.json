@@ -1,6 +1,20 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/spec/models/play_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/models/play.rb": [
         1,
         1,
@@ -32,6 +46,26 @@
         1,
         null
       ],
+      "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/controllers/words_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/models/game.rb": [
         1,
         1,
@@ -46,6 +80,6 @@
         null
       ]
     },
-    "timestamp": 1540911712
+    "timestamp": 1540913769
   }
 }

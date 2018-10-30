@@ -1,0 +1,8 @@
+<h4>Examples for using <%= @sentence.word %></h4>
+
+<div class="sentences">
+  <% @sentence.sentences.each do |sentence| %>
+    <p><%= sentence.text %></p>
+    <p>Region: <%= sentence.region %></p>
+  <% end %>
+</div>
