@@ -4,15 +4,13 @@ describe 'API' do
   it 'POST /api/v1/games/1/plays' do
     game = create(:game)
 
-    
+    # chose not to stub these requests, as the changing state is what's being tested
 
     get '/api/v1/games/1'
     initial_game_state = JSON.parse(response.body, symbolize_names: true)
 
     expect(initial_game_state[:scores].first[:score]).to eq(0)
     expect(initial_game_state[:scores].second[:score]).to eq(0)
-
-
 
     payload = {'user_id': 1, 'word': 'at'}
     post "/api/v1/games/#{game.id}/plays", params: payload
