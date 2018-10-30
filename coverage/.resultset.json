@@ -46,6 +46,35 @@
         1,
         null
       ],
+      "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/spec/requests/api/v1/games_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/controllers/welcome_controller.rb": [
         1,
         1,
@@ -155,8 +184,18 @@
         1,
         1,
         null
+      ],
+      "/Users/macinnes/Turing/three_module/assessment/scrabble_web_api/app/controllers/api/v1/games_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1540916984
+    "timestamp": 1540918022
   }
 }
