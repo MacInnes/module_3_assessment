@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'API' do
   it 'GET /api/v1/games/:id' do
-    create(:game)
+    create(:play, user_id: 2)
     get '/api/v1/games/1'
 
     binding.pry
